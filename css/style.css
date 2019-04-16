@@ -11,8 +11,13 @@ nav .brand-logo {
   color: white; 
 }
 
-nav, .container {
-  background: #759BF9;
+nav{
+  background: #1D2844;
+}
+
+.middle-section,
+.bottom-section {
+  background: white;
 }
 
 p {

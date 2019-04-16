@@ -10,7 +10,8 @@ nav ul a,
 nav .brand-logo {
   color: white; 
 }
-#download-button{
+#download-button,
+#footerclass{
   background: #1D2844;
 }
 nav{

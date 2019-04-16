@@ -10,7 +10,9 @@ nav ul a,
 nav .brand-logo {
   color: white; 
 }
-
+#download-button{
+  background: #1D2844;
+}
 nav{
   background: #6891F9;
 }
@@ -24,9 +26,6 @@ nav{
   color: #6891F9; 
 }
 
-#login {
-  background: #6891F9;
-}
 p {
   line-height: 2rem;
 }

@@ -8,7 +8,23 @@
 
 nav ul a,
 nav .brand-logo {
-  color:black;
+  color: white; 
+}
+#download-button,
+#footerclass{
+  background: #6891F9;
+}
+nav{
+  background: #6891F9;
+}
+
+.middle-section,
+.bottom-section {
+  background: #6891F9;
+}
+
+#perfect{
+  color: #6891F9; 
 }
 
 p {

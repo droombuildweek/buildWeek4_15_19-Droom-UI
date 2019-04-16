@@ -20,6 +20,13 @@ nav{
   background: #6891F9;
 }
 
+#perfect{
+  color: #6891F9; 
+}
+
+#login {
+  background: #6891F9;
+}
 p {
   line-height: 2rem;
 }

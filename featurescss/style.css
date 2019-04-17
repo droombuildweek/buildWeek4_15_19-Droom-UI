@@ -26,9 +26,3 @@
 #footercolor {
 	background: #6891F9;
 }
-
-.center-cols > .col {
-	float: none;
-	display: inline-block;
-	text-align: initial;
-}

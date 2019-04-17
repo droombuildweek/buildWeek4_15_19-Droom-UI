@@ -26,3 +26,11 @@
 #footercolor {
 	background: #6891F9;
 }
+
+#vectorpng {
+	position: absolute;
+	width: 808px;
+	height: 718px;
+	left: 0px;
+	top: -16px;
+}

@@ -35,3 +35,24 @@
 	left: 0px;
 	top: -16px;
 }
+
+.customtext {
+	/* Lorem ipsum dolor sit amet */
+
+position: absolute;
+width: 555px;
+height: 43px;
+left: 105px;
+top: 171px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 60px;
+line-height: normal;
+letter-spacing: -0.5px;
+
+color: #FCFCFE;
+
+/* White — High Emphasis */
+}

@@ -11,13 +11,13 @@
     });
     
     $('#card1reveal').click(function(){
-      $card1.css('overflow', '');
+      $card1.css('overflow', 'visible');
     })
     $('#card2reveal').click(function(){
-      $card2.css('overflow', '');
+      $card2.css('overflow', 'visible');
     })
     $('#card3reveal').click(function(){
-      $card3.css('overflow', '');
+      $card3.css('overflow', 'visible');
     })
     $('.sidenav').sidenav();
   }); // end of document ready

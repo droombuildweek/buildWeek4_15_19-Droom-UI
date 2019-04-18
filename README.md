@@ -33,34 +33,56 @@
 </p>
 
 ## Table of Contents
-- [Quickstart](#quickstart)
-- [Documentation](#documentation)
+- [Quickview](#view)
+- [Reading my javascript](#Javascript)
 - [Supported Browsers](#supported-browsers)
 - [Changelog](#changelog)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [Copyright and license](#copyright-and-license)
 
-## Quickstart:
-Read the [getting started guide](http://materializecss.com/getting-started.html) for more information on how to use materialize.
+## General
+Droom is an application that allows you to land your dream job with a click of a button.
 
-- [Download the latest release](https://github.com/Dogfalo/materialize/releases/latest) of materialize directly from GitHub. ([Beta](https://github.com/Dogfalo/materialize/releases/))
-- Clone the repo: `git clone https://github.com/Dogfalo/materialize.git` (Beta: `git clone -b v1-dev https://github.com/Dogfalo/materialize.git`)
-- Include the files via [cdnjs](https://cdnjs.com/libraries/materialize). More [here](http://materializecss.com/getting-started.html). ([Beta](https://cdnjs.com/libraries/materialize/1.0.0-beta))
-- Install with [npm](https://www.npmjs.com): `npm install materialize-css` (Beta: `npm install materialize-css@next`)
-- Install with [Bower](https://bower.io): `bower install materialize` ([DEPRECATED](https://bower.io/blog/2017/how-to-migrate-away-from-bower/))
-- Install with [Atmosphere](https://atmospherejs.com): `meteor add materialize:materialize` (Beta: `meteor add materialize:materialize@=1.0.0-beta`)
-
-## Documentation
-The documentation can be found at <http://materializecss.com>. To run the documentation locally on your machine, you need [Node.js](https://nodejs.org/en/) installed on your computer.
-
-### Running documentation locally
-Run these commands to set up the documentation:
+## View 
+```bash
+raidondroom.netlify.com
+```
+## Javascript
+I wrote my javascript in jquery because i'm using materialize css, you can find it in the init.js for features and how it works
 
 ```bash
-git clone https://github.com/Dogfalo/materialize
-cd materialize
-npm install
+//features cards
+var $card1 = $('#card1');
+    var $card2 = $('#card2');
+    var $card3 = $('#card3');
+
+    $('#buttoncolor').click(function (){
+      $card1.toggleClass("scale-out");
+      $card2.toggleClass("scale-out");
+      $card3.toggleClass("scale-out");
+    });
+    
+    $('#card1reveal').click(function(){
+      $card1.css('overflow', 'visible');
+      $(this).css('display', 'none');
+      $(this).css('transform', 'translateY(0%)')
+    });
+
+    $('#card2reveal').click(function(){
+      $card2.css('overflow', 'visible;');
+      $(this).css('display', 'none');
+      $(this).css('transform', 'translateY(0%)')
+    });
+
+    $('#card3reveal').click(function(){
+      $card3.css('overflow', 'visible');
+      $(this).css('display', 'none');
+      $(this).css('transform', 'translateY(0%)')
+    
+    });
+// how it works tabs
+$('ul.tabs').tabs();
 ```
 
 Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.

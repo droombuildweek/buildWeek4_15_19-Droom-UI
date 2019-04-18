@@ -77,3 +77,8 @@ color: #FCFCFE;
 #featurefooter {
 	margin-bottom: 2px;
 }
+
+.material-icons {
+	display: inline-flex;
+	justify-content: center;
+}

@@ -183,3 +183,16 @@
 .material-icons {
 	color: #4C6AB6;
 }
+
+.tabs .tab a{
+color: #4C6AB6;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+background-color: #fff3e0;
+outline: none;
+}
+
+.tabs .tab a:hover,tabs .tab a:active,.tabs .tab a.active {
+background-color:transparent;
+color: white;
+}

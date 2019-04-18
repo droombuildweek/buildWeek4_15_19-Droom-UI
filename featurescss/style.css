@@ -5,9 +5,6 @@
  *
  * Made By MaterializeCSS.com
  */
-body {
-	font-size: 62.5%;
-}
 .icon-block {
   padding: 0 1.5rem;
 }
@@ -16,8 +13,8 @@ body {
 }
 
 #groupchat {
-	width: 68.8rem;
-	height: 46.6rem;
+	width: 688px;
+	height: 466px;
 
 }
 
@@ -32,36 +29,41 @@ body {
 
 #vectorpng {
 	position: absolute;
-	width: 80.8rem;
-	height: 71.8rem;
-	left: 0rem;
-	top: -1.6rem;
+	width: 808px;
+	height: 718px;
+	left: 0px;
+	top: -1.6px;
 }
 
 @media only screen and (max-width : 992px) {
-  #vectorpng {
+  #vectorpng,
+  #customtext,
+  #groupchat,
+  #customptext {
   	display: none;
   }
 }
 
 @media only screen and (max-width : 600px) {
-  #vectorpng {
+  #vectorpng,
+  #groupchat,
+  #customtext,
+  #customptext {
     display: none;
   }
 }
 
 .customtext {
-
 	position: absolute;
-	width: 55.5rem;
-	height: 4.3rem;
-	left: 10.5rem;
-	top: 17.1rem;
+	width: 555px;
+	height: 43px;
+	left: 105px;
+	top: 171px;
 
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 300;
-	font-size: 6.0rem;
+	font-size: 60px;
 	line-height: normal;
 	letter-spacing: -0.5px;
 
@@ -70,15 +72,15 @@ body {
 
 .customptext {
 	position: absolute;
-	width: 61.0rem;
-	height: 15.1rem;
-	left: 10.5rem;
-	top: 34.0rem;
+	width: 610px;
+	height: 151px;
+	left: 105px;
+	top: 340px;
 
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 3.4rem;
+	font-size: 34px;
 	line-height: normal;
 	letter-spacing: 0.25px;
 

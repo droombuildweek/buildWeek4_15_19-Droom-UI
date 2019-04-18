@@ -8,6 +8,16 @@
  body {
  	background: #E3EBFD;
  }
+
+ .mobileptext {
+ 	display: none;
+ }
+  #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: none;
+  }
 .test1pclass {
 
 		position: absolute;
@@ -54,6 +64,30 @@
 }
 
 @media only screen and (max-width : 992px) {
+	body{
+		overflow: hidden;
+	}
+  .mobileptext,
+  .mobilejoblist,
+  .mobileswipe,
+  .mobileapply {
+  	display: flex;
+  	margin: 10%;
+  	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+  }
+  #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: flex;
+  	width: 674px;
+	height: 409px;
+  	margin: 10%;
+  }
   .test1pclass,
   .test2pclass,
   .lastpclass{
@@ -67,6 +101,21 @@
 }
 
 @media only screen and (max-width : 600px) {
+	body{
+		overflow: hidden;
+	}
+	 #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: none;
+  }
+	.mobileptext,
+	.mobilejoblist,
+	.mobileswipe,
+	.mobileapply {
+  	display: visible;
+  }
  .test1pclass,
   .test2pclass,
   .lastpclass{
@@ -176,4 +225,21 @@
 
 .material-icons {
 	color: #4C6AB6;
+}
+
+.tabs .tab a{
+color: #4C6AB6;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+background-color: #6891F9;
+outline: none;
+}
+
+.tabs .tab a:hover,tabs .tab a:active,.tabs .tab a.active {
+background-color:transparent;
+color:#4C6AB6;
+}
+
+.tabs .indicator {
+background-color:#4C6AB6;
 }

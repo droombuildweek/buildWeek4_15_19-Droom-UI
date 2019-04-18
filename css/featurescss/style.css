@@ -36,6 +36,9 @@
 }
 
 @media only screen and (max-width : 992px) {
+	body{
+		overflow: hidden;
+	}
   #vectorpng,
   #customtext,
   #groupchat,
@@ -45,6 +48,9 @@
 }
 
 @media only screen and (max-width : 600px) {
+	body{
+		overflow: hidden;
+	}
   #vectorpng,
   #groupchat,
   #customtext,

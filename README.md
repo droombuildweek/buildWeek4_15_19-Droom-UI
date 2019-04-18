@@ -32,14 +32,10 @@
   </a>
 </p>
 
+## つ ◕_◕ ༽つ
 ## Table of Contents
 - [Quickview](#view)
 - [Reading my javascript](#Javascript)
-- [Supported Browsers](#supported-browsers)
-- [Changelog](#changelog)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Copyright and license](#copyright-and-license)
 
 ## General
 Droom is an application that allows you to land your dream job with a click of a button.
@@ -84,30 +80,5 @@ var $card1 = $('#card1');
 // how it works tabs
 $('ul.tabs').tabs();
 ```
-
-Then run `grunt monitor` to compile the documentation. When it finishes, open a new browser window and navigate to `localhost:8000`. We use [BrowserSync](https://www.browsersync.io/) to display the documentation.
-
-### Documentation for previous releases
-Previous releases and their documentation are available for [download](https://github.com/Dogfalo/materialize/releases).
-
-## Supported Browsers:
-Materialize is compatible with:
-
-- Chrome 35+
-- Firefox 31+
-- Safari 9+
-- Opera
-- Edge
-- IE 11+
-
-## Changelog
-For changelogs, check out [the Releases section of materialize](https://github.com/Dogfalo/materialize/releases) or the [CHANGELOG.md](CHANGELOG.md).
-
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](CONTRIBUTING.md#jasmine-testing-guide).
-
-## Contributing
-Check out the [CONTRIBUTING document](CONTRIBUTING.md) in the root of the repository to learn how you can contribute. You can also browse the [help-wanted](https://github.com/Dogfalo/materialize/labels/help-wanted) tag in our issue tracker to find things to do.
-
 ## Copyright and license
 Code Copyright 2018 Materialize. Code released under the MIT license.

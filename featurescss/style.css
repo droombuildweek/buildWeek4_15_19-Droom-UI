@@ -5,17 +5,19 @@
  *
  * Made By MaterializeCSS.com
  */
-
+body {
+	font-size: 62.5%;
+}
 .icon-block {
-  padding: 0 15px;
+  padding: 0 1.5rem;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
 
-#groupchat {	
-	width: 688px;
-	height: 466px;
+#groupchat {
+	width: 68.8rem;
+	height: 46.6rem;
 
 }
 
@@ -30,10 +32,10 @@
 
 #vectorpng {
 	position: absolute;
-	width: 808px;
-	height: 718px;
-	left: 0px;
-	top: -16px;
+	width: 80.8rem;
+	height: 71.8rem;
+	left: 0rem;
+	top: -1.6rem;
 }
 
 @media only screen and (max-width : 992px) {
@@ -49,37 +51,34 @@
 }
 
 .customtext {
-	/* Lorem ipsum dolor sit amet */
 
-position: absolute;
-width: 555px;
-height: 43px;
-left: 105px;
-top: 171px;
+	position: absolute;
+	width: 55.5rem;
+	height: 4.3rem;
+	left: 10.5rem;
+	top: 17.1rem;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 300;
-font-size: 60px;
-line-height: normal;
-letter-spacing: -0.5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 6.0rem;
+	line-height: normal;
+	letter-spacing: -0.5px;
 
-color: #FCFCFE;
-
-/* White — High Emphasis */
+	color: #FCFCFE;
 }
 
 .customptext {
 	position: absolute;
-	width: 610px;
-	height: 151px;
-	left: 105px;
-	top: 340px;
+	width: 61.0rem;
+	height: 15.1rem;
+	left: 10.5rem;
+	top: 34.0rem;
 
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 34px;
+	font-size: 3.4rem;
 	line-height: normal;
 	letter-spacing: 0.25px;
 

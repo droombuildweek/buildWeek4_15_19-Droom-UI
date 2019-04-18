@@ -8,6 +8,16 @@
  body {
  	background: #E3EBFD;
  }
+
+ .mobileptext {
+ 	display: none;
+ }
+  #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: none;
+  }
 .test1pclass {
 
 		position: absolute;
@@ -57,6 +67,27 @@
 	body{
 		overflow: hidden;
 	}
+  .mobileptext,
+  .mobilejoblist,
+  .mobileswipe,
+  .mobileapply {
+  	display: flex;
+  	margin: 10%;
+  	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+  }
+  #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: flex;
+  	width: 674px;
+	height: 409px;
+  	margin: 10%;
+  }
   .test1pclass,
   .test2pclass,
   .lastpclass{
@@ -73,6 +104,18 @@
 	body{
 		overflow: hidden;
 	}
+	 #mobilechat,
+  #mobilejobhunt,
+  #mobilenewhire,
+  #mobilehire {
+  	display: none;
+  }
+	.mobileptext,
+	.mobilejoblist,
+	.mobileswipe,
+	.mobileapply {
+  	display: visible;
+  }
  .test1pclass,
   .test2pclass,
   .lastpclass{

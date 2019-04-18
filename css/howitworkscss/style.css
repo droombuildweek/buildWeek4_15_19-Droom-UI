@@ -54,6 +54,9 @@
 }
 
 @media only screen and (max-width : 992px) {
+	body{
+		overflow: hidden;
+	}
   .test1pclass,
   .test2pclass,
   .lastpclass{
@@ -67,6 +70,9 @@
 }
 
 @media only screen and (max-width : 600px) {
+	body{
+		overflow: hidden;
+	}
  .test1pclass,
   .test2pclass,
   .lastpclass{

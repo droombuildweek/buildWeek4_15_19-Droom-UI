@@ -80,7 +80,8 @@
 }
 
 #newhirepng,
-#jobhuntpng {
+#jobhuntpng,
+#chatpng {
 	position: absolute;
 	width: 674px;
 	height: 409px;

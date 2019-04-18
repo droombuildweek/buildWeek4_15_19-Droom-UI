@@ -12,19 +12,19 @@
     
     $('#card1reveal').click(function(){
       $card1.css('overflow', 'visible');
-      $(this).css('display', 'block');
+      $(this).css('display', 'none');
       $(this).css('transform', 'translateY(0%)')
     });
 
     $('#card2reveal').click(function(){
       $card2.css('overflow', 'visible;');
-      $(this).css('display', 'block');
+      $(this).css('display', 'none');
       $(this).css('transform', 'translateY(0%)')
     });
 
     $('#card3reveal').click(function(){
       $card3.css('overflow', 'visible');
-      $(this).css('display', 'block');
+      $(this).css('display', 'none');
       $(this).css('transform', 'translateY(0%)')
     
     });

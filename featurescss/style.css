@@ -36,6 +36,18 @@
 	top: -16px;
 }
 
+@media only screen and (max-width : 992px) {
+  #vectorpng {
+  	display: none;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #vectorpng {
+    display: none;
+  }
+}
+
 .customtext {
 	/* Lorem ipsum dolor sit amet */
 

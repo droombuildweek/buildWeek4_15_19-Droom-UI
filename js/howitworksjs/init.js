@@ -1,11 +1,7 @@
 (function($){
   $(function(){
-    $('#card1').click(function (){
-      $(this).toggleClass("scale-out");
-    });
-
+    $('ul.tabs').tabs();
     $('.sidenav').sidenav();
-    
   }); // end of document ready
 
 })(jQuery); // end of jQuery name space

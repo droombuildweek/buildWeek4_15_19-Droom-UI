@@ -1,6 +1,6 @@
 (function($){
   $(function(){
-    $('.tabs').tabs();
+    $('ul.tabs').tabs();
     $('.sidenav').sidenav();
   }); // end of document ready
 

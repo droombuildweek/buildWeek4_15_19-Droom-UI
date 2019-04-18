@@ -1,7 +1,9 @@
 (function($){
   $(function(){
     $('#buttoncolor').click(function (){
-      $('#card1').toggleClass("scale-out");
+      $('#cardToggle').toggleClass("scale-out");
+      $('#cardToggle').toggleClass("scale-out");
+      $('#cardToggle').toggleClass("scale-out");
     });
 
     $('.sidenav').sidenav();

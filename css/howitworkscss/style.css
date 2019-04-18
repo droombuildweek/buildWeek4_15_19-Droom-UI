@@ -53,6 +53,32 @@
 		line-height: 35px;
 }
 
+@media only screen and (max-width : 992px) {
+  .test1pclass,
+  .test2pclass,
+  .lastpclass{
+  	display: none;
+  }
+  #newhirepng,
+  #jobhuntpng,
+  #chatpng {
+  		display: none;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+ .test1pclass,
+  .test2pclass,
+  .lastpclass{
+  	display: none;
+  }
+  #newhirepng,
+  #jobhuntpng,
+  #chatpng {
+  		display: none;
+  }
+}
+
 #newhirepng {
 	position: absolute;
 	width: 674px;

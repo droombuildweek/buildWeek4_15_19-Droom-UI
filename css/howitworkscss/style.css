@@ -14,13 +14,21 @@
 		width: 530px;
 		height: 528px;
 		left: 800px;
-		top: 300px;
+		top: 280px;
 
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 24px;
 		line-height: 35px;
+}
+
+#newhirepng {
+	position: absolute;
+	width: 674px;
+	height: 409px;
+	left: 68px;
+	top: 290px;
 }
 .icon-block {
   padding: 0 1.5rem;

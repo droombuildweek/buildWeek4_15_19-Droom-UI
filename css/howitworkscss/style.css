@@ -9,7 +9,10 @@
  	background: #E3EBFD;
  }
 
- .mobileptext {
+ .mobileptext,
+ .mobilejoblist,
+ .mobileswipe,
+ .mobileapply {
  	display: none;
  }
   #mobilechat,
